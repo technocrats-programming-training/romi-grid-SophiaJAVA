@@ -13,6 +13,8 @@ public class Position {
 
     public void driveUp() throws InterruptedException {
         y += 10;
+
+      
     }
 
     public void driveDown() throws InterruptedException {
@@ -38,7 +40,7 @@ public class Position {
         return "("+x+", "+y+")";
         // x = 10, y = 20
         // (10, 20)
-      
+    
 
     }
 }
